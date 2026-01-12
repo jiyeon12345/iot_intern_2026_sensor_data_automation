@@ -1,3 +1,9 @@
+# 파이썬 실행 방법: 
+# 1. 파이썬 가상환경 생성 : python -m venv venv
+# 2. 파이썬 가상환경 활성화 : venv\Scripts\activate
+# 3. 파이썬 패키지 설치 : pip install paho-mqtt
+# 4. 파이썬 실행 : python sensor_jy.py
+
 import json
 import time
 import random
@@ -71,4 +77,5 @@ def main():
         print(f"\n총 {count}개 데이터 전송")
 
 if __name__ == '__main__':
+
     main()
