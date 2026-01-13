@@ -21,7 +21,7 @@ def generate_onem2m_message():
     """oneM2M 형식으로 데이터 생성"""
     sensor_data = {
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"), # 타임스탬프
-        "humidity": round(random.uniform(0, 7), 2), # 습도
+        "humidity": round(random.uniform(0, 70), 2), # 습도
         "temperature": round(random.uniform(5, 35), 1) # 온도
     }
     
@@ -79,3 +79,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
